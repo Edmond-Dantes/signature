@@ -1,5 +1,6 @@
 .Viewer {
-  height: 100px;
+  height: 400px;
+  text-align: center;
   padding: 2em;
   background-color: rgba(0,0,0,0.1);
   box-shadow: inset 1px 1px 5px rgba(0,0,0,0.5);

@@ -15,11 +15,12 @@ export default function Viewer({ src }: Props) {
 
   return (
     <div className="Viewer">
-      <img
-        height="100px"
+      <iframe
+        height="100%"
         width="100%"
         src={src}
-        alt="document"
+        title="document"
+        // alt="document"
       />
     </div>
   );

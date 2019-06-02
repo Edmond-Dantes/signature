@@ -1,11 +1,15 @@
 import React from 'react';
-import './Pad.css'
+import './Pad.css';
 
-export default function Pad() {
+interface Props {
+  forwardedRef: any
+}
+
+export default function Pad({forwardedRef}: Props) {
   return (
     <canvas
-      id="canvas"
+      ref={forwardedRef}
       className="Pad"
     />
-  )
+  );
 }
