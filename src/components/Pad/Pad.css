@@ -1,0 +1,6 @@
+.Pad {
+  display: block;
+  margin: 1em auto 0 auto;
+  min-width: 100px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
